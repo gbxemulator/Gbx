@@ -1210,7 +1210,7 @@ select.form-input option { background: #0d1117; }
     #ab-buttons {
         width: 105px; height: 80px;
         margin-top: 105px;
-        margin-left: -15px;
+        margin-left: 5px;
     }
     #btn-b { bottom: 0; left: 0; }
     #btn-a { top: 10px; right: 0; }
