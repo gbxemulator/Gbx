@@ -1170,14 +1170,23 @@ select.form-input option { background: #0d1117; }
 /* ─── Mobile Portrait ───────────────────────────────────────── */
 @media (max-width: 480px) and (orientation: portrait) {
     #welcome-screen { display: none !important; }
-    #app { padding: 0; justify-content: flex-start; padding-top: 0; }
+    html, body { height: 100%; overflow: hidden; }
+    #app {
+        padding: 0;
+        justify-content: flex-start;
+        min-height: 100dvh;
+        height: 100dvh;
+        overflow-y: auto;
+    }
     #app.sidebar-open { margin-right: 0; }
 
     #gameboy {
         width: 100vw;
-        max-width: 420px;
+        max-width: 100vw;
         border-radius: 0;
         padding: 14px 14px 24px;
+        min-height: 100dvh;
+        box-sizing: border-box;
     }
 
     #gb-title { font-size: 15px; letter-spacing: 2px; }
