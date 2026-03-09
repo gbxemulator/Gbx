@@ -156,6 +156,7 @@ function setupGameSelector() {
 
     eject.addEventListener('click', () => {
         addPressEffect(eject);
+        clearInterval(GBX.autosaveTimer);
         // Popup de confirmation sauvegarde uniquement pour les utilisateurs connectés
         if (GBX.user && GBX.isRunning) {
             showEjectConfirm();
@@ -236,6 +237,17 @@ function launchGame(game) {
         GBX.speedActive = false;
         updateSpeedButton();
         showToast('🎮 ' + game.name + ' lancé !', 'success');
+
+        // ── Autosave SRAM toutes les 10 secondes ──────────────
+        if (GBX.user) {
+            clearInterval(GBX.autosaveTimer);
+            GBX.autosaveTimer = setInterval(async () => {
+                try {
+                    const saveData = GBX.emulator.saveSaveFiles();
+                    if (saveData) await uploadSaveToServer(GBX.currentGame, saveData, true);
+                } catch(e) {}
+            }, 10000);
+        }
     };
 
     // EJS_onGameStart se déclenche après EJS_ready, une fois le core réellement chargé
@@ -1103,7 +1115,7 @@ async function loadSaveForGame(game) {
     }
 }
 
-async function uploadSaveToServer(game, saveData) {
+async function uploadSaveToServer(game, saveData, silent = false) {
     if (!GBX.user) return;
 
     // Convertir en base64
@@ -1119,7 +1131,7 @@ async function uploadSaveToServer(game, saveData) {
 
         if (error) {
             showToast('❌ Erreur sauvegarde.', 'error');
-        } else {
+        } else if (!silent) {
             showToast('💾 Sauvegarde envoyée !', 'success');
         }
     };
