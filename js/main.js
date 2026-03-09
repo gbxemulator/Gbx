@@ -156,7 +156,6 @@ function setupGameSelector() {
 
     eject.addEventListener('click', () => {
         addPressEffect(eject);
-        clearInterval(GBX.autosaveTimer);
         // Popup de confirmation sauvegarde uniquement pour les utilisateurs connectés
         if (GBX.user && GBX.isRunning) {
             showEjectConfirm();
@@ -222,8 +221,6 @@ function launchGame(game) {
         window.EJS_onLoadSave = () => {
             return loadSaveFromServer(GBX.currentGame);
         };
-        // Charger la sauvegarde existante
-        loadSaveForGame(game);
     } else {
         // Pas connecté = pas de hooks de sauvegarde
         window.EJS_onSaveSave = undefined;
@@ -238,12 +235,15 @@ function launchGame(game) {
         updateSpeedButton();
         showToast('🎮 ' + game.name + ' lancé !', 'success');
 
-        // ── Autosave SRAM toutes les 10 secondes ──────────────
         if (GBX.user) {
+            // Charger la save existante dans le FS
+            loadSaveForGame(game);
+
+            // ── Autosave SRAM toutes les 10 secondes ──────────
             clearInterval(GBX.autosaveTimer);
             GBX.autosaveTimer = setInterval(async () => {
                 try {
-                    const saveData = GBX.emulator.saveSaveFiles();
+                    const saveData = readSaveFile(game);
                     if (saveData) await uploadSaveToServer(GBX.currentGame, saveData, true);
                 } catch(e) {}
             }, 10000);
@@ -1098,7 +1098,33 @@ function buildSavesSelect() {
 }
 
 /**
- * Charge la sauvegarde depuis Supabase avant de lancer le jeu
+ * Retourne le chemin du fichier de save dans le FS EmulatorJS
+ * selon le core utilisé et le nom de la ROM
+ */
+function getSavePath(game) {
+    const core     = GBX_EMULATOR_CONFIG.cores[game.type] || 'mgba';
+    const baseName = game.file.split('/').pop().replace(/\.[^.]+$/, '');
+    const coreDir  = core === 'gambatte' ? 'Gambatte' : 'mGBA';
+    return `/data/saves/${coreDir}/${baseName}.srm`;
+}
+
+/**
+ * Lit le fichier de save depuis le FS EmulatorJS
+ */
+function readSaveFile(game) {
+    try {
+        const path = getSavePath(game);
+        const data = GBX.emulator.gameManager.FS.readFile(path);
+        // Vérifier que ce n'est pas un fichier vide (que des zéros)
+        if (!data || data.every(b => b === 0)) return null;
+        return data;
+    } catch(e) {
+        return null;
+    }
+}
+
+/**
+ * Charge la sauvegarde depuis Supabase et l'injecte dans le FS EmulatorJS
  */
 async function loadSaveForGame(game) {
     if (!GBX.user) return;
@@ -1110,15 +1136,26 @@ async function loadSaveForGame(game) {
         .maybeSingle();
 
     if (data?.save_data) {
-        window.EJS_loadStateURL = data.save_data;
-        showToast('💾 Sauvegarde chargée !', 'info');
+        // Convertir base64 en Uint8Array et injecter dans le FS
+        const base64 = data.save_data.split(',')[1];
+        const binary = atob(base64);
+        const bytes  = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+        try {
+            const path = getSavePath(game);
+            GBX.emulator.gameManager.FS.writeFile(path, bytes);
+            showToast('💾 Sauvegarde chargée !', 'info');
+        } catch(e) {
+            // Fallback : utiliser EJS_loadStateURL
+            window.EJS_loadStateURL = data.save_data;
+        }
     }
 }
 
 async function uploadSaveToServer(game, saveData, silent = false) {
     if (!GBX.user) return;
 
-    // Convertir en base64
+    // Convertir Uint8Array en base64
     const blob   = new Blob([saveData]);
     const reader = new FileReader();
     reader.onload = async () => {
