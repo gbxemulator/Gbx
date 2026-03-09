@@ -1197,7 +1197,7 @@ select.form-input option { background: #0d1117; }
     /* D-PAD — même proportions que PC */
     #dpad {
         width: 110px; height: 110px;
-        margin-top: 27px;
+        margin-top: 7px;
         margin-right: 8px;
         margin-left: 0;
     }
@@ -1209,7 +1209,7 @@ select.form-input option { background: #0d1117; }
     .ab-btn { width: 46px; height: 46px; font-size: 12px; }
     #ab-buttons {
         width: 105px; height: 80px;
-        margin-top: 35px;
+        margin-top: 15px;
         margin-left: -10px;
     }
     #btn-b { bottom: 0; left: 0; }
@@ -1221,7 +1221,7 @@ select.form-input option { background: #0d1117; }
         justify-content: flex-end;
     }
     #start-select {
-        margin-top: 180px;
+        margin-top: 160px;
         margin-right: -10px;
         left: -15px;
     }
