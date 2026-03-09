@@ -1206,11 +1206,11 @@ select.form-input option { background: #0d1117; }
     #dpad-center { width: 40px; height: 40px; }
 
     /* Boutons A et B */
-    .ab-btn { width: 46px; height: 46px; font-size: 12px; }
+    .ab-btn { width: 56px; height: 56px; font-size: 13px; }
     #ab-buttons {
-        width: 105px; height: 80px;
+        width: 115px; height: 90px;
         margin-top: 105px;
-        margin-left: -30px;
+        margin-left: -40px;
     }
     #btn-b { bottom: 0; left: 0; }
     #btn-a { top: 10px; right: 0; }
