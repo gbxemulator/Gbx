@@ -1208,7 +1208,7 @@ select.form-input option { background: #0d1117; }
     /* Boutons A et B */
     .ab-btn { width: 46px; height: 46px; font-size: 12px; }
     #ab-buttons {
-        width: 115px; height: 60px;
+        width: 105px; height: 80px;
         margin-top: 105px;
         margin-left: -15px;
     }
