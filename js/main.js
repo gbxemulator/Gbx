@@ -558,7 +558,7 @@ function applyColor(colorId) {
     // Easter egg : couleur bordeaux → "GBX v1 Mei's Edition"
     if (title) {
         if (colorId === 'bordeaux') {
-            title.innerHTML = 'MEI ♥';
+            title.innerHTML = 'MEI <span style="font-size:0.7em">v</span>1';
         } else {
             title.innerHTML = 'GBX <span style="font-size:0.7em">v</span>1';
         }
