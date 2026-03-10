@@ -21,25 +21,25 @@ const GBX_GAMES = [
 
     // ─── Game Boy Advance (.gba) ─────────────────────────────
     {
-        id: "pokemon-fr",
+        id: "pokemon_rf",
         name: "Pokémon Rouge Feu",
         file: "https://archive.org/download/pokemon-gbx-1/Pokemon_Gbx_1.zip/pokemon_rouge_feu.gba",
         type: "gba",
         priority: 1,
-        saveName: "pokemon_rouge_feu.sav",
+        saveName: "pokemon_rf.sav",
         cover: ""
     },
     {
-        id: "pokemon-vf",
+        id: "pokemon_vf",
         name: "Pokémon Vert Feuille",
         file: "https://archive.org/download/pokemon-gbx-1/Pokemon_Gbx_1.zip/pokemon_vert_feuille.gba",
         type: "gba",
         priority: 2,
-        saveName: "pokemon_vert_feuille.sav",
+        saveName: "pokemon_vf.sav",
         cover: ""
     },
     {
-        id: "pokemon-rubis",
+        id: "pokemon_rubis",
         name: "Pokémon Rubis",
         file: "https://archive.org/download/pokemon-gbx-2/Pokemon_Gbx_2.zip/pokemon_rubis.gba",
         type: "gba",
@@ -48,7 +48,7 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "pokemon-saphir",
+        id: "pokemon_saphir",
         name: "Pokémon Saphir",
         file: "https://archive.org/download/pokemon-gbx-3/Pokemon_Gbx_3.zip/pokemon_saphir.gba",
         type: "gba",
@@ -57,7 +57,7 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "pokemon-emeraude",
+        id: "pokemon_emeraude",
         name: "Pokémon Émeraude",
         file: "https://archive.org/download/pokemon-gbx-3/Pokemon_Gbx_3.zip/pokemon_emeraude.gba",
         type: "gba",
@@ -66,27 +66,27 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "urbz",
-        name: "Les Urbz",
-        file: "https://archive.org/download/mei_20260309/Mei.zip/urbz.gba",
-        type: "gba",
-        priority: 6,
-        saveName: "urbz.sav",
-        cover: ""
-    },
-    {
         id: "sims_permis_sortir",
         name: "Les Sims : Permis de sortir",
         file: "https://archive.org/download/mei_20260309/Mei.zip/sims_permis_sortir.gba",
         type: "gba",
-        priority: 7,
+        priority: 6,
         saveName: "sims_permis_sortir.sav",
+        cover: ""
+    },
+    {
+        id: "wario_land4",
+        name: "Wario Land 4",
+        file: "https://archive.org/download/wario-land-4_20260310/Wario%20Land%204.zip/Wario%20Land%204.gba",
+        type: "gba",
+        priority: 7,
+        saveName: "wario_land4.sav",
         cover: ""
     },
 
     // ─── Game Boy Color (.gbc) ───────────────────────────────
     {
-        id: "pokemon-or",
+        id: "pokemon_or",
         name: "Pokémon Or",
         file: "https://archive.org/download/pokemon-gbx-2/Pokemon_Gbx_2.zip/pokemon_or.gbc",
         type: "gbc",
@@ -95,7 +95,7 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "pokemon-argent",
+        id: "pokemon_argent",
         name: "Pokémon Argent",
         file: "https://archive.org/download/pokemon-gbx-2/Pokemon_Gbx_2.zip/pokemon_argent.gbc",
         type: "gbc",
@@ -104,7 +104,7 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "pokemon-cristal",
+        id: "pokemon_cristal",
         name: "Pokémon Cristal",
         file: "https://archive.org/download/pokemon-gbx-2/Pokemon_Gbx_2.zip/pokemon_cristal.gbc",
         type: "gbc",
@@ -115,7 +115,7 @@ const GBX_GAMES = [
 
     // ─── Game Boy Classic (.gb) ──────────────────────────────
     {
-        id: "pokemon-rouge",
+        id: "pokemon_rouge",
         name: "Pokémon Rouge",
         file: "https://archive.org/download/pokemon-gbx-1/Pokemon_Gbx_1.zip/pokemon_rouge.gb",
         type: "gb",
@@ -124,7 +124,7 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "pokemon-bleu",
+        id: "pokemon_bleu",
         name: "Pokémon Bleu",
         file: "https://archive.org/download/pokemon-gbx-1/Pokemon_Gbx_1.zip/pokemon_bleu.gb",
         type: "gb",
@@ -133,7 +133,7 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "pokemon-jaune",
+        id: "pokemon_jaune",
         name: "Pokémon Jaune",
         file: "https://archive.org/download/pokemon-gbx-1/Pokemon_Gbx_1.zip/pokemon_jaune.gb",
         type: "gb",
