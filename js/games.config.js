@@ -132,7 +132,6 @@ const GBX_GAMES = [
         saveName: "pokemon_jaune.sav",
         cover: ""
     },
-    {
 
 ];
 
