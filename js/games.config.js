@@ -115,23 +115,24 @@ const GBX_GAMES = [
         cover: ""
     },
     {
-        id: "pokemon_jaune",
-        name: "Pokémon Jaune",
-        file: "https://archive.org/download/pokemon-gbx-1/Pokemon_Gbx_1.zip/pokemon_jaune.gb",
-        type: "gb",
-        priority: 22,
-        saveName: "pokemon_jaune.sav",
-        cover: ""
-    },
-    {
         id: "pokemon_vert",
         name: "Pokémon Vert",
         file: "https://archive.org/download/pokemon-vert/Pokemon_vert.zip/Pokemon_vert.gb",
         type: "gb",
-        priority: 23,
+        priority: 22,
         saveName: "pokemon_vert.sav",
         cover: ""
     },
+    {
+        id: "pokemon_jaune",
+        name: "Pokémon Jaune",
+        file: "https://archive.org/download/pokemon-gbx-1/Pokemon_Gbx_1.zip/pokemon_jaune.gb",
+        type: "gb",
+        priority: 23,
+        saveName: "pokemon_jaune.sav",
+        cover: ""
+    },
+    {
 
 ];
 
