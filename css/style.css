@@ -1270,7 +1270,10 @@ textarea.contact-input {
 }
 .contact-submit:hover { opacity: 0.85; }
 .contact-submit:active { transform: translateY(1px); }
-.gameboy-light .contact-submit { color: #545454 !important; }
+.gameboy-light .contact-submit {
+    color: #545454 !important;
+    background: linear-gradient(135deg, #cbd5e1, #94a3b8) !important;
+}
 
 /* ─── Overlay (fond sombre quand sidebar ouverte) ───────────── */
 #overlay {
