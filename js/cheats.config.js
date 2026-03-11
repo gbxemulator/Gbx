@@ -86,7 +86,10 @@ const GBX_CHEATS = {
 
     // ─── Pokémon Rouge (GB) ──────────────────────────────────
     pokemon_rouge: [
-        // ── Ajoute tes codes ici ──
+        {
+            name: "Masterball",
+            code: "010181CF"
+        },
     ],
 
     // ─── Pokémon Bleu (GB) ───────────────────────────────────
