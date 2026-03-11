@@ -77,7 +77,7 @@ const GBX_GAMES = [
     {
         id: "wario_land4",
         name: "Wario Land 4",
-        file: "https://archive.org/download/wario-land-4_20260310/Wario%20Land%204.zip/Wario%20Land%204.gba",
+        file: "https://archive.org/download/wario-land-4_20260310_2347/Wario_Land_4.zip/Wario_Land_4.gba",
         type: "gba",
         priority: 7,
         saveName: "wario_land4.sav",
