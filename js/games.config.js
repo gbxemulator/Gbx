@@ -65,24 +65,6 @@ const GBX_GAMES = [
         saveName: "pokemon_emeraude.sav",
         cover: ""
     },
-    {
-        id: "sims_permis_sortir",
-        name: "Les Sims : Permis de sortir",
-        file: "https://archive.org/download/mei_20260309/Mei.zip/sims_permis_sortir.gba",
-        type: "gba",
-        priority: 6,
-        saveName: "sims_permis_sortir.sav",
-        cover: ""
-    },
-    {
-        id: "wario_land4",
-        name: "Wario Land 4",
-        file: "https://archive.org/download/wario-land-4_20260311/Wario_Land_4.zip/Wario_Land_4.gba",
-        type: "gba",
-        priority: 7,
-        saveName: "wario_land4.sav",
-        cover: ""
-    },
 
     // ─── Game Boy Color (.gbc) ───────────────────────────────
     {
