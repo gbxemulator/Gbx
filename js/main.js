@@ -629,7 +629,7 @@ function applyColor(colorId) {
         if (colorId === 'bordeaux') {
             title.innerHTML = 'MEI <span style="font-size:0.5em;margin-left:-6px">\'s Edition</span>';
         } else {
-            title.innerHTML = 'GBX <span style="font-size:0.7em">v</span>1';
+            title.innerHTML = 'GBX <span style="font-size:0.7em">Emulator</span>';
         }
     }
 
