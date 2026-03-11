@@ -123,6 +123,15 @@ const GBX_GAMES = [
         saveName: "pokemon_jaune.sav",
         cover: ""
     },
+    {
+        id: "pokemon_vert",
+        name: "Pokémon Vert",
+        file: "https://archive.org/download/pokemon-vert/Pokemon_vert.zip/Pokemon_vert.gb",
+        type: "gb",
+        priority: 23,
+        saveName: "pokemon_vert.sav",
+        cover: ""
+    },
 
 ];
 
