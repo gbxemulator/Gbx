@@ -1079,7 +1079,7 @@ function _quickHash(arr) {
 // EJS_ready est appele trop tot - le FS WASM n'accepte pas encore writeFile.
 // On retry toutes les 500ms jusqu'a 20s max.
 function _injectSaveWithRetry(saveArr) {
-    const MAX_ATTEMPTS = 40;
+    const MAX_ATTEMPTS = 240;
     let attempts = 0;
 
     const tryInject = () => {
