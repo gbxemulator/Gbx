@@ -138,6 +138,6 @@ const GBX_STYLE_CONFIG = {
     landscapeScreenOffsetY: "0px",
 
     // ─── Couleur par défaut au chargement ────────────────────
-    defaultColor: "bleu",
+    defaultColor: "violet",
 
 };
