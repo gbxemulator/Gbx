@@ -636,7 +636,7 @@ function applyColor(colorId) {
         if (colorId === 'bordeaux') {
             title.innerHTML = 'MEI <span style="font-size:0.5em;margin-left:-6px">\'s Edition</span>';
         } else {
-            title.innerHTML = 'GBX <span style="font-size:0.5em;margin-left:-6px">v1</span>';
+            title.innerHTML = 'GBX <span style="font-size:0.5em;margin-left:-6px">v<span style="font-size:1.15em">1</span></span>';
         }
     }
 
