@@ -809,11 +809,10 @@ function _renderFavGame() {
         const badge = game ? _getConsoleBadge(game.type) : '';
         wrap.innerHTML = `<span style="font-size:11px;color:rgba(255,255,255,0.4);">
             ${badge}⭐ ${GBX.user.fav_game}
-            <span style="font-size:9px;opacity:0.4;margin-left:4px;">✏️</span>
         </span>`;
     } else {
         wrap.innerHTML = `<span style="font-size:11px;color:rgba(255,255,255,0.25);font-style:italic;">
-            ⭐ Ajoute un jeu favori <span style="font-size:9px;opacity:0.4;">✏️</span>
+            ⭐ Ajoute un jeu favori
         </span>`;
     }
 
