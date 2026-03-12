@@ -769,7 +769,7 @@ function openProfileModal() {
     // Dernier jeu lancé
     const lastGameEl = document.getElementById('modal-profile-lastgame');
     if (lastGameEl) {
-        lastGameEl.textContent = GBX.user.last_game ? '🎮 Dernier jeu : ' + GBX.user.last_game : '';
+        lastGameEl.textContent = GBX.user.last_game ? '🎮 Dernier jeu lancé : ' + GBX.user.last_game : '';
     }
 
     const preview = document.getElementById('avatar-profile-preview');
