@@ -135,7 +135,7 @@ const GBX_CHEATS = {
         },
         {
             name: "Ticket Mystik (Ho-Oh & Lugia)",
-            code: "9F0C50A8 DCCF880B",
+            code: "A3C83A98 A166180D 1C7B3231 B494738C 9F0C50A8 DCCF880B",
             note: "Permet d'accéder aux îles de Ho-Oh et Lugia."
         },
         {
