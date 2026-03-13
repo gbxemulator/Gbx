@@ -34,34 +34,34 @@ const GBX_CHEATS = {
     pokemon_rf: [
         {
             name: "Masterball x99 - PC Slot 1",
-            code: "02ED8A35 994B4F87",
+            code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 02ED8A35 994B4F87",
             note: "Met un objet à échanger dans le PC.",
         },
         {
             name: "Super Bonbon x99 - Plot Slot 1",
-            code: "C12BBBE1 D1ED426C",
+            code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 C12BBBE1 D1ED426C",
             note: "Met un objet à échanger dans le PC.",
         },
         {
             name: "Pokémon Sauvages Shiny",
-            code: "E6CB7A29 8033F7D7\n18452A7D DDE55BCC",
+            code: "E6CB7A29 8033F7D7 18452A7D DDE55BCC",
             note: "Redémarre pour retirer le code.",
         },
         {
             name: "Rencontrer Mew",
-            code: "1DEA3B67 6E985E0E\nB751BDF4 95CEF4CC",
+            code: "1DEA3B67 6E985E0E B751BDF4 95CEF4CC",
         },
         {
             name: "Rencontrer Célébi",
-            code: "1DEA3B67 6E985E0E\n4AEC27E8 A5FF1540",
+            code: "1DEA3B67 6E985E0E 4AEC27E8 A5FF1540",
         },
         {
             name: "Rencontrer Jirachi",
-            code: "FDEADA14 17B8FD2F\nD2BF38B5 7E300C38\n1DEA3B67 6E985E0E\nFFF032FD FAF9AFD2",
+            code: "FDEADA14 17B8FD2F D2BF38B5 7E300C38 1DEA3B67 6E985E0E FFF032FD FAF9AFD2",
         },
         {
             name: "Rencontrer Deoxys",
-            code: "FDEADA14 17B8FD2F\nD2BF38B5 7E300C38\n1DEA3B67 6E985E0E\n27C35F73 A8E9E879",
+            code: "FDEADA14 17B8FD2F D2BF38B5 7E300C38 1DEA3B67 6E985E0E 27C35F73 A8E9E879",
         },
         {
             name: "Argent Infini",
@@ -76,16 +76,16 @@ const GBX_CHEATS = {
         {
             name: "Ticketmystik - PC Slot 1",
             code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 9F0C50A8 DCCF880B",
-            note: "Active le au lancement du jeu, permet d'accéder à Roc Nombri (Ho-Oh & Lugia).",
+            note: "Permet d'accéder à Roc Nombri (Ho-Oh & Lugia).",
         },
         {
             name: "Ticketaurora - PC Slot 1",
             code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 C07596A3 FD8C4AEC",
-            note: "Active le au lancement du jeu, permet d'accéder à l'île Aurore (Deoxys).",
+            note: "Permet d'accéder à l'île Aurore (Deoxys).",
         },
         {
             name: "Activation des îles Events",
-            code: "07CF2578 E43B4EBF",
+            code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 07CF2578 E43B4EBF",
             note: "Puis direction le port de Carmin sur Mer.",
         },
     ],
@@ -111,6 +111,10 @@ const GBX_CHEATS = {
             note: "Déclenche une rencontre avec Mew dans les hautes herbes."
         },
         {
+
+            A3C83A98 A166180D
+1C7B3231 B494738C
+                
             name: "Rencontrer Célébice",
             code: "21CDC699 7EAB3C0D\n4AEC27E8 A5FF1540",
             note: "Déclenche une rencontre avec Célébice dans les hautes herbes."
@@ -153,11 +157,11 @@ const GBX_CHEATS = {
     // ─── Pokémon Rubis (GBA) ─────────────────────────────────
     pokemon_rubis: [
         {
-            name: "Masterball x99",
+            name: "Masterball x99 - Sac Slot 1",
             code: "C674B60F B309F994"
         },
         {
-            name: "Bonbon",
+            name: "Super Bonbon x99 - Sac Slot 1",
             code: "32A914E6 B46D0A8E"
         },
         {
