@@ -110,10 +110,6 @@ const GBX_CHEATS = {
             code: "21CDC699 7EAB3C0D\nB751BDF4 95CEF4CC",
             note: "Déclenche une rencontre avec Mew dans les hautes herbes."
         },
-        {
-
-            A3C83A98 A166180D
-1C7B3231 B494738C
                 
             name: "Rencontrer Célébice",
             code: "21CDC699 7EAB3C0D\n4AEC27E8 A5FF1540",
