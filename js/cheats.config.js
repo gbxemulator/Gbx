@@ -33,60 +33,58 @@ const GBX_CHEATS = {
     // ─── Pokémon Rouge Feu (GBA) ─────────────────────────────
     pokemon_rf: [
         {
-            name: "Masterball",
-            code: "02ED8A35 994B4F87"
+            name: "Masterball x99 - PC Slot 1",
+            code: "02ED8A35 994B4F87",
+            note: "Met un objet à échanger dans le PC.",
         },
         {
-            name: "Bonbon",
-            code: "C12BBBE1 D1ED426C"
+            name: "Super Bonbon x99 - Plot Slot 1",
+            code: "C12BBBE1 D1ED426C",
+            note: "Met un objet à échanger dans le PC.",
         },
         {
-            name: "Pokémon Shiny",
+            name: "Pokémon Sauvages Shiny",
             code: "E6CB7A29 8033F7D7\n18452A7D DDE55BCC",
-            note: "Active avant une rencontre pour obtenir un Pokémon Shiny."
+            note: "Redémarre pour retirer le code.",
         },
         {
             name: "Rencontrer Mew",
             code: "1DEA3B67 6E985E0E\nB751BDF4 95CEF4CC",
-            note: "Déclenche une rencontre avec Mew dans les hautes herbes."
         },
         {
-            name: "Rencontrer Célébice",
+            name: "Rencontrer Célébi",
             code: "1DEA3B67 6E985E0E\n4AEC27E8 A5FF1540",
-            note: "Déclenche une rencontre avec Célébice dans les hautes herbes."
         },
         {
             name: "Rencontrer Jirachi",
             code: "FDEADA14 17B8FD2F\nD2BF38B5 7E300C38\n1DEA3B67 6E985E0E\nFFF032FD FAF9AFD2",
-            note: "Déclenche une rencontre avec Jirachi dans les hautes herbes."
         },
         {
             name: "Rencontrer Deoxys",
             code: "FDEADA14 17B8FD2F\nD2BF38B5 7E300C38\n1DEA3B67 6E985E0E\n27C35F73 A8E9E879",
-            note: "Déclenche une rencontre avec Deoxys dans les hautes herbes."
         },
         {
             name: "Argent Infini",
-            code: "29C78059 96542194"
+            code: "29C78059 96542194",
         },
         {
             name: "Tous les badges",
-            code: "EFCE867D 5403D40D"
+            code: "EFCE867D 5403D40D",
         },
         {
-            name: "Ticket Mystik (Ho-Oh & Lugia)",
+            name: "Ticketmystik - PC Slot 1",
             code: "9F0C50A8 DCCF880B",
-            note: "Permet d'accéder aux îles de Ho-Oh et Lugia."
+            note: "Permet d'accéder à Roc Nombri (Ho-Oh et Lugia).",
         },
         {
-            name: "Ticket Aurora (Deoxys)",
+            name: "Ticketaurora - PC Slot 1",
             code: "C07596A3 FD8C4AEC",
-            note: "Permet d'accéder à l'île de Deoxys."
+            note: "Permet d'accéder à l'île Aurore (Deoxys).",
         },
         {
-            name: "Activation des îles",
+            name: "Activation des îles Events",
             code: "07CF2578 E43B4EBF",
-            note: "Débloque l'accès aux îles spéciales."
+            note: "Puis direction le port de Carmin sur Mer.",
         },
     ],
 
