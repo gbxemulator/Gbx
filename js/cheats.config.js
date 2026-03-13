@@ -35,12 +35,12 @@ const GBX_CHEATS = {
         {
             name: "Masterball x99 - PC Slot 1",
             code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 02ED8A35 994B4F87",
-            note: "Met un objet à échanger dans le PC.",
+            note: "Mets un objet à échanger dans le PC.",
         },
         {
             name: "Super Bonbon x99 - Plot Slot 1",
             code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 C12BBBE1 D1ED426C",
-            note: "Met un objet à échanger dans le PC.",
+            note: "Mets un objet à échanger dans le PC.",
         },
         {
             name: "Pokémon Sauvages Shiny",
@@ -84,7 +84,7 @@ const GBX_CHEATS = {
             note: "Permet d'accéder à l'île Aurore (Deoxys).",
         },
         {
-            name: "Activation des îles Events",
+            name: "Activer Roc Nombri & l'île Aurore",
             code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 07CF2578 E43B4EBF",
             note: "Puis direction le port de Carmin sur Mer.",
         },
@@ -93,60 +93,60 @@ const GBX_CHEATS = {
     // ─── Pokémon Vert Feuille (GBA) ──────────────────────────
     pokemon_vf: [
         {
-            name: "Masterball",
-            code: "02ED8A35 994B4F87"
+            name: "Masterball x99 - PC Slot 1",
+            code: "A3C83A98 A166180D 1C7B3231 B494738C 02ED8A35 994B4F87",
+            note: "Mets un objet à échanger dans le PC.",
         },
         {
-            name: "Bonbon",
-            code: "C12BBBE1 D1ED426C"
+            name: "Super Bonbon x99 - Plot Slot 1",
+            code: "A3C83A98 A166180D 1C7B3231 B494738C C12BBBE1 D1ED426C",
+            note: "Mets un objet à échanger dans le PC.",
         },
         {
-            name: "Pokémon Shiny",
-            code: "E6CB7A29 8033F7D7\n18452A7D DDE55BCC",
-            note: "Active avant une rencontre pour obtenir un Pokémon Shiny."
+            name: "Pokémon Sauvages Shiny",
+            code: "E6CB7A29 8033F7D7 18452A7D DDE55BCC",
+            note: "Redémarre pour retirer le code.",
         },
         {
             name: "Rencontrer Mew",
-            code: "21CDC699 7EAB3C0D\nB751BDF4 95CEF4CC",
-            note: "Déclenche une rencontre avec Mew dans les hautes herbes."
+            code: "1DEA3B67 6E985E0E B751BDF4 95CEF4CC",
         },
         {
-            name: "Rencontrer Célébice",
-            code: "21CDC699 7EAB3C0D\n4AEC27E8 A5FF1540",
-            note: "Déclenche une rencontre avec Célébice dans les hautes herbes.",
+            name: "Rencontrer Célébi",
+            code: "1DEA3B67 6E985E0E 4AEC27E8 A5FF1540",
         },
         {
             name: "Rencontrer Jirachi",
-            code: "BB55B910 E2A8DC6D\nD2BF38B5 7E300C38\n21CDC699 7EAB3C0D\nFFF032FD FAF9AFD2",
-            note: "Déclenche une rencontre avec Jirachi dans les hautes herbes."
+            code: "FDEADA14 17B8FD2F D2BF38B5 7E300C38 1DEA3B67 6E985E0E FFF032FD FAF9AFD2",
         },
         {
             name: "Rencontrer Deoxys",
-            code: "BB55B910 E2A8DC6D\nD2BF38B5 7E300C38\n21CDC699 7EAB3C0D\n27C35F73 A8E9E879",
-            note: "Déclenche une rencontre avec Deoxys dans les hautes herbes."
+            code: "FDEADA14 17B8FD2F D2BF38B5 7E300C38 1DEA3B67 6E985E0E 27C35F73 A8E9E879",
         },
         {
             name: "Argent Infini",
-            code: "29C78059 96542194"
+            code: "29C78059 96542194",
+            note: "Ouvre 2x de suite la carte dresseur",
         },
         {
             name: "Tous les badges",
-            code: "EFCE867D 5403D40D"
+            code: "EFCE867D 5403D40D",
+            note: "Ouvre 2x de suite la carte dresseur",
         },
         {
-            name: "Ticket Mystik (Ho-Oh & Lugia)",
+            name: "Ticketmystik - PC Slot 1",
             code: "A3C83A98 A166180D 1C7B3231 B494738C 9F0C50A8 DCCF880B",
-            note: "Permet d'accéder aux îles de Ho-Oh et Lugia."
+            note: "Permet d'accéder à Roc Nombri (Ho-Oh & Lugia).",
         },
         {
-            name: "Ticket Aurora (Deoxys)",
-            code: "C07596A3 FD8C4AEC",
-            note: "Permet d'accéder à l'île de Deoxys."
+            name: "Ticketaurora - PC Slot 1",
+            code: "A3C83A98 A166180D 1C7B3231 B494738C C07596A3 FD8C4AEC",
+            note: "Permet d'accéder à l'île Aurore (Deoxys).",
         },
         {
-            name: "Activation des îles",
-            code: "07CF2578 E43B4EBF",
-            note: "Débloque l'accès aux îles spéciales."
+            name: "Activer Roc Nombri & l'île Aurore",
+            code: "A3C83A98 A166180D 1C7B3231 B494738C 07CF2578 E43B4EBF",
+            note: "Puis direction le port de Carmin sur Mer.",
         },
     ],
 
@@ -161,7 +161,7 @@ const GBX_CHEATS = {
             code: "32A914E6 B46D0A8E"
         },
         {
-            name: "Pokémon Shiny",
+            name: "Pokémon Sauvages Shiny",
             code: "CD9A8B2C 402EA528"
         },
         {
@@ -170,7 +170,7 @@ const GBX_CHEATS = {
             note: "Déclenche une rencontre avec Mew dans les hautes herbes."
         },
         {
-            name: "Rencontrer Célébice",
+            name: "Rencontrer Célébi",
             code: "A3AFC93B CAE30FEC",
             note: "Déclenche une rencontre avec Célébice dans les hautes herbes."
         },
@@ -193,14 +193,14 @@ const GBX_CHEATS = {
             code: "BC33578D 82482A93"
         },
         {
-            name: "Passe Éon — PC Slot 1 (Latias/Latios)",
+            name: "Passe Éon - PC Slot 1",
             code: "E5FC3327 7766DEE9",
-            note: "Dépose le Passe Éon dans le slot 1 de votre PC."
+            note: "Permet d'accéder à l'île du Sud (Latias & Latios).",
         },
         {
-            name: "Activer le Passe Éon",
+            name: "Activer l'île du Sud",
             code: "0332305F 41A5F851",
-            note: "À activer avec le code Passe Éon pour accéder à Latias ou Latios."
+            note: "Puis direction le port de Nénucrique.",
         },
     ],
 
@@ -252,7 +252,7 @@ const GBX_CHEATS = {
             note: "Dépose le Passe Éon dans le slot 1 de votre PC."
         },
         {
-            name: "Activer le Passe Éon",
+            name: "Activer l'île du Sud",
             code: "0332305F 41A5F851",
             note: "À activer avec le code Passe Éon pour accéder à Latias ou Latios."
         },
@@ -266,12 +266,12 @@ const GBX_CHEATS = {
             note: "Doit être activé AVANT tous les autres codes, sinon ils ne fonctionneront pas."
         },
         {
-            name: "Masterball — PC Slot 1",
+            name: "Masterball x99 -",
             code: "D935946C D758DF54",
             note: "Dépose une Masterball dans le slot 1 de votre PC."
         },
         {
-            name: "Bonbon — PC Slot 1",
+            name: "Super Bonbon x99 -",
             code: "4B053F6A D785DEE2",
             note: "Dépose un Bonbon dans le slot 1 de votre PC."
         },
@@ -305,44 +305,44 @@ const GBX_CHEATS = {
             code: "C051CCF6 975E8DA1"
         },
         {
-            name: "Passe Éon — PC Slot 1 (Latias & Latios)",
+            name: "Passe Éon - PC Slot 1",
             code: "D4A41118 1703BBDD",
-            note: "Dépose le Passe Éon dans le slot 1 de votre PC."
+            note: "Permet d'accéder à l'île du Sud (Latias & Latios).",
         },
         {
-            name: "Vieillecarte (Mew) — PC Slot 1",
+            name: "Vieillecarte - PC Slot 1",
             code: "B44F17D0 B0A13201",
-            note: "Dépose la Vieillecarte dans le slot 1 de votre PC."
+            note: "Permet d'accéder à l'île Lointaine (Mew).",
         },
         {
-            name: "Ticket Mystik (Ho-Oh & Lugia) — PC Slot 1",
+            name: "Ticketmystik - PC Slot 1",
             code: "FBC62957 45B46F37",
-            note: "Dépose le Ticket Mystik dans le slot 1 de votre PC."
+            note: "Permet d'accéder à Roc Nombri (Ho-Oh & Lugia).",
         },
         {
-            name: "Ticket Aurora (Deoxys) — PC Slot 1",
+            name: "Ticketaurora - PC Slot 1",
             code: "35A8A0DA B41DB189",
-            note: "Dépose le Ticket Aurora dans le slot 1 de votre PC."
+            note: "Permet d'accéder à l'île Aurore (Deoxys).",
         },
         {
-            name: "Activer Île Mew & Deoxys (sans Symbole Bravoure)",
+            name: "Activer l'Île Lointaine & Aurore",
             code: "66170A7B BA1B4D7B",
-            note: "Débloque les îles de Mew et Deoxys sans avoir le Symbole Bravoure."
+            note: "Puis direction le port de Nénucrique.",
         },
         {
-            name: "Activer Île Mew & Deoxys (avec Symbole Bravoure)",
+            name: "Activer l'Île Lointaine & Aurore (Autre ..)",
             code: "653C743B 4B626426",
-            note: "Débloque les îles de Mew et Deoxys si vous avez le Symbole Bravoure."
+            note: "Si t'as le symbole Bravoure (vaincre la Pyramide de Combat) alors tu dois activer celui-ci."
         },
         {
             name: "Activer l'Île du Sud",
             code: "181690CB 4E53CB05",
-            note: "Débloque l'accès à l'Île du Sud."
+            note: "Puis direction le port de Nénucrique.",
         },
         {
-            name: "Activer le Roc Nombri",
+            name: "Activer Roc Nombri",
             code: "E961B0C7 750B1250",
-            note: "Débloque l'accès au Roc Nombri."
+            note: "Puis direction le port de Nénucrique.",
         },
     ],
 
