@@ -76,7 +76,7 @@ const GBX_GAMES = [
     },
     {
         id: "pokemon_pinball_2",
-        name: "Pokémon Pinball : Rubis & Saphir
+        name: "Pokémon Pinball : Rubis & Saphir",
         file: "https://archive.org/download/gbx-emulator-plus/GBX_Emulator_Plus.rar/Pokemon_pinball_2.gba",
         type: "gba",
         priority: 7,
