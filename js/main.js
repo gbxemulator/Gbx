@@ -456,14 +456,19 @@ function setupGameControls() {
 function pressButton(el, ejsRealIndex, isDown) {
     if (el.disabled) return;
 
+    // 1. Changement CSS immédiat (dans le frame courant)
     if (isDown) { el.classList.add('pressed'); }
     else        { el.classList.remove('pressed'); }
 
+    // 2. simulateInput décalé au frame suivant : évite que le repaint CSS
+    //    et le flush wasm/GPU se produisent dans le même frame → fin du scintillement.
     const gm = GBX.emulator?.gameManager;
     if (!gm) return;
-    try {
-        gm.simulateInput(0, ejsRealIndex, isDown ? 1 : 0);
-    } catch(e) { /* émulateur pas encore prêt */ }
+    requestAnimationFrame(() => {
+        try {
+            gm.simulateInput(0, ejsRealIndex, isDown ? 1 : 0);
+        } catch(e) { /* émulateur pas encore prêt */ }
+    });
 }
 
 /* ============================================================
