@@ -75,12 +75,12 @@ const GBX_CHEATS = {
         },
         {
             name: "Ticketmystik - PC Slot 1",
-            code: "9F0C50A8 DCCF880B",
+            code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 9F0C50A8 DCCF880B",
             note: "Active le au lancement du jeu, permet d'accéder à Roc Nombri (Ho-Oh & Lugia).",
         },
         {
             name: "Ticketaurora - PC Slot 1",
-            code: "C07596A3 FD8C4AEC",
+            code: "5E0EC136 8674EBD2 78DA95DF 44018CB4 C07596A3 FD8C4AEC",
             note: "Active le au lancement du jeu, permet d'accéder à l'île Aurore (Deoxys).",
         },
         {
