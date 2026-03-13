@@ -66,19 +66,23 @@ const GBX_CHEATS = {
         {
             name: "Argent Infini",
             code: "29C78059 96542194",
+            note: "Ouvre 2x de suite la carte dresseur",
         },
         {
             name: "Tous les badges",
             code: "EFCE867D 5403D40D",
+            note: "Ouvre 2x de suite la carte dresseur",
         },
         {
             name: "Ticketmystik - PC Slot 1",
             code: "9F0C50A8 DCCF880B",
+            note: "Active le au lancement du jeu",
             note: "Permet d'accéder à Roc Nombri (Ho-Oh et Lugia).",
         },
         {
             name: "Ticketaurora - PC Slot 1",
             code: "C07596A3 FD8C4AEC",
+            note: "Active le au lancement du jeu",
             note: "Permet d'accéder à l'île Aurore (Deoxys).",
         },
         {
