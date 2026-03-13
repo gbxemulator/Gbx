@@ -130,7 +130,7 @@ const GBX_GAMES = [
     },
 	{
         id: "golden_sun2",
-        name: "Golden Sun",
+        name: "Golden Sun 2",
         file: "https://archive.org/download/golden-sun_202603/Golden_Sun.rar/golden_sun2.gba",
         type: "gba",
         priority: 13,
