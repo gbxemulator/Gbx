@@ -67,7 +67,7 @@ const GBX_GAMES = [
     },
     {
         id: "pokemon_donjon_rouge",
-        name: "Pokémon Donjon : Équipe Rouge
+        name: "Pokémon Donjon : Équipe Rouge",
         file: "https://archive.org/download/gbx-emulator-plus/GBX_Emulator_Plus.rar/Pokemon_donjon_rouge.gba",
         type: "gba",
         priority: 6,
