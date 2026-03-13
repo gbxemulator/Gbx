@@ -1710,7 +1710,7 @@ select.form-input option { background: #0d1117; }
     #screen-frame {
         position: absolute;
         left: 130px; right: 130px; /* ← largeur des colonnes gauche/droite */
-        top: 20px; bottom: 10px;
+        top: 20px; bottom: 20px;
         padding: 12px; border-radius: 12px;
         background: var(--screen-frame);
         box-shadow:
