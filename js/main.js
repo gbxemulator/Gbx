@@ -469,8 +469,8 @@ function pressButton(el, ejsRealIndex, isDown) {
  * Touche AZERTY (code physique QWERTY) → index simulateInput + bouton HTML
  */
 const AZERTY_MAP = {
-    'KeyQ':       { ejsIndex: 0,  btnId: 'btn-b'      }, // A AZERTY    → bouton B
     'KeyW':       { ejsIndex: 8,  btnId: 'btn-a'      }, // Z AZERTY    → bouton A
+    'KeyQ':       { ejsIndex: 0,  btnId: 'btn-b'      }, // A AZERTY    → bouton B
     'KeyS':       { ejsIndex: 3,  btnId: 'btn-start'  }, // S AZERTY    → Start
     'KeyA':       { ejsIndex: 2,  btnId: 'btn-select' }, // Q AZERTY    → Select
     'ArrowUp':    { ejsIndex: 4,  btnId: 'dpad-up'    },
@@ -2379,10 +2379,10 @@ const GBX_KEYMAP_ACTIONS = [
 	{ id: 'btn-select', label: 'SELECT',     ejsIndex: 2  },
     { id: 'btn-l',      label: 'Bouton L',  ejsIndex: 10 },
     { id: 'btn-r',      label: 'Bouton R',  ejsIndex: 11 },
-    { id: '_cheat',     label: 'CHEAT',      ejsIndex: -1 },
-    { id: '_fast',      label: 'FAST',       ejsIndex: -1 },
-    { id: '_save',      label: 'SAVE',       ejsIndex: -1 },
     { id: '_menu',      label: 'MENU',       ejsIndex: -1 },
+    { id: '_save',      label: 'SAVE',       ejsIndex: -1 },
+    { id: '_fast',      label: 'FAST',       ejsIndex: -1 },
+    { id: '_cheat',     label: 'CHEAT',      ejsIndex: -1 },
 ];
 
 const GBX_KEYMAP_DEFAULT = {
@@ -2392,10 +2392,10 @@ const GBX_KEYMAP_DEFAULT = {
     'btn-start':  'KeyS',
     'btn-l':      'KeyZ',
     'btn-r':      'KeyX',
-    '_cheat':     'KeyG',
-    '_fast':      'KeyF',
-    '_save':      'KeyL',
     '_menu':      'Semicolon',
+    '_save':      'KeyL',
+    '_fast':      'KeyF',
+    '_cheat':     'KeyG',
 };
 
 function loadKeyMap() {
