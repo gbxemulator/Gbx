@@ -835,7 +835,9 @@ body.gameboy-light #game-select {
 }
 body.gameboy-light #game-select option { color: #fff; }
 
-
+body.gameboy-light .modal-btn {
+    color: #545454;
+}
 
 /* ─── Zone de jeu (D-PAD + AB + START/SELECT) ───────────────── */
 #controls-main {
