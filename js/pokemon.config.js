@@ -21,10 +21,10 @@
  *    "gb"       → Game Boy
  *    "gbc"      → Game Boy Color
  *    "gba"      → Game Boy Advance
- *    "ds"       → Nintendo DS
+ *    "nds"      → Nintendo DS
  *    "3ds"      → Nintendo 3DS
  *    "n64"      → Nintendo 64
- *    "gcn"      → GameCube
+ *    "ngc"      → GameCube
  *    "wii"      → Wii
  *    "wiiu"     → Wii U
  *    "switch"   → Nintendo Switch
@@ -48,10 +48,10 @@ const GBX_PLATFORMS = {
     gb:      "GB",
     gbc:     "GBC",
     gba:     "GBA",
-    ds:      "DS",
+    nds:      "NDS",
     "3ds":   "3DS",
     n64:     "N64",
-    gcn:     "GCN",
+    ngc:     "NGC",
     wii:     "WII",
     wiiu:    "WII U",
     switch:  "SWITCH",
@@ -124,17 +124,17 @@ const GBX_POKEMON_GAMES = [
     { name: "Pokémon Trading Card Game 2",                platform: "gbc"     },
     { name: "Pokémon Stadium",                            platform: "n64"     },
     { name: "Pokémon Stadium 2",                          platform: "n64"     },
-    { name: "Pokémon Colosseum",                          platform: "gcn"     },
-    { name: "Pokémon XD : Le Souffle des Ténèbres",       platform: "gcn"     },
+    { name: "Pokémon Colosseum",                          platform: "ngc"     },
+    { name: "Pokémon XD : Le Souffle des Ténèbres",       platform: "ngc"     },
     { name: "Pokémon Battle Revolution",                  platform: "wii"     },
-    { name: "Pokémon Ranger",                             platform: "ds"      },
-    { name: "Pokémon Ranger : Nuit sur Almia",            platform: "ds"      },
-    { name: "Pokémon Ranger : Sillages de Lumière",       platform: "ds"      },
+    { name: "Pokémon Ranger",                             platform: "nds"     },
+    { name: "Pokémon Ranger : Nuit sur Almia",            platform: "nds"     },
+    { name: "Pokémon Ranger : Sillages de Lumière",       platform: "nds"     },
     { name: "Pokémon Donjon : Équipe de Secours Rouge",   platform: "gba"     },
-    { name: "Pokémon Donjon : Équipe de Secours Bleue",   platform: "ds"      },
-    { name: "Pokémon Donjon : Explorateurs du Temps",     platform: "ds"      },
-    { name: "Pokémon Donjon : Explorateurs de l'Ombre",   platform: "ds"      },
-    { name: "Pokémon Donjon : Explorateurs du Ciel",      platform: "ds"      },
+    { name: "Pokémon Donjon : Équipe de Secours Bleue",   platform: "nds"     },
+    { name: "Pokémon Donjon : Explorateurs du Temps",     platform: "nds"     },
+    { name: "Pokémon Donjon : Explorateurs de l'Ombre",   platform: "nds"     },
+    { name: "Pokémon Donjon : Explorateurs du Ciel",      platform: "nds"     },
     { name: "Pokémon Donjon : Les Portes de l'Infini",    platform: "3ds"     },
     { name: "Pokémon Donjon Mystère Wii",                 platform: "wii"     },
     { name: "Pokémon Méga Donjon Mystère",                platform: "3ds"     },
@@ -147,11 +147,12 @@ const GBX_POKEMON_GAMES = [
     { name: "Pokémon Pinball : Rubis et Saphir",          platform: "gba"     },
     { name: "Pokémon Snap",                               platform: "n64"     },
     { name: "New Pokémon Snap",                           platform: "switch"  },
-    { name: "Pokémon Dash",                               platform: "ds"      },
+    { name: "Pokémon Dash",                               platform: "nds"     },
     { name: "Pokkén Tournament",                          platform: "wiiu"    },
     { name: "Pokémon Go",                                 platform: "mobile"  },
-    { name: "Pokémon Unite",                              platform: "switch"  },
+    { name: "Pokémon Unite",                              platform: "mobile"  },
     { name: "Pokémon TCG Pocket",                         platform: "mobile"  },
+    { name: "Pokémon Pokopia",                            platform: "switch2" },
 
     // ── Autre ─────────────────────────────────────────────────
     "Une Rom Hack",
