@@ -81,17 +81,17 @@ const GBX_POKEMON_GAMES = [
     { name: "Pokémon Vert Feuille",                       platform: "gba"     },
 
     // ── Génération 4 ──────────────────────────────────────────
-    { name: "Pokémon Diamant",                            platform: "ds"      },
-    { name: "Pokémon Perle",                              platform: "ds"      },
-    { name: "Pokémon Platine",                            platform: "ds"      },
-    { name: "Pokémon Or HeartGold",                       platform: "ds"      },
-    { name: "Pokémon Argent SoulSilver",                  platform: "ds"      },
+    { name: "Pokémon Diamant",                            platform: "nds"     },
+    { name: "Pokémon Perle",                              platform: "nds"     },
+    { name: "Pokémon Platine",                            platform: "nds"     },
+    { name: "Pokémon Or HeartGold",                       platform: "nds"     },
+    { name: "Pokémon Argent SoulSilver",                  platform: "nds"     },
 
     // ── Génération 5 ──────────────────────────────────────────
-    { name: "Pokémon Noir",                               platform: "ds"      },
-    { name: "Pokémon Blanc",                              platform: "ds"      },
-    { name: "Pokémon Noir 2",                             platform: "ds"      },
-    { name: "Pokémon Blanc 2",                            platform: "ds"      },
+    { name: "Pokémon Noir",                               platform: "nds"     },
+    { name: "Pokémon Blanc",                              platform: "nds"     },
+    { name: "Pokémon Noir 2",                             platform: "nds"     },
+    { name: "Pokémon Blanc 2",                            platform: "nds"     },
 
     // ── Génération 6 ──────────────────────────────────────────
     { name: "Pokémon X",                                  platform: "3ds"     },
