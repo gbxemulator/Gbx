@@ -256,10 +256,6 @@ const GBX_CHEATS = {
             note: "Redémarre pour retirer le code.",
         },
         {
-            name: "Argent Infini",
-            code: "C051CCF6 975E8DA1",
-        },
-        {
             name: "Passe Éon - PC Slot 1",
             code: "0A6626D3 648DA17A",
             note: "Permet d'accéder à l'île du Sud (Latias & Latios).",
